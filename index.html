@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" class="no-touch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}
+    </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Elshorouk Academy Services</title>
+    <link rel="stylesheet" href="https://portal.sha.edu.eg/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://portal.sha.edu.eg/css/site.css?m=2" />
+    <link rel="stylesheet" href="https://portal.sha.edu.eg/css/style.css?m=2" />
+    <link rel="stylesheet" href="https://portal.sha.edu.eg/css/templete.css?m=2" />
+    <link rel="stylesheet" href="https://portal.sha.edu.eg/fontawesome/css/font-awesome.min.css?m=2" />
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link rel="icon" href="/images/miniPortalLogo.png" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/miniPortalLogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .arbtn {
+            display: block;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            text-align: center;
+            color: #f0f0f0;
+            margin: 25px auto 0;
+            box-shadow: 0 0 4px rgb(0 0 0 / 14%), 0 4px 8px rgb(0 0 0 / 28%);
+            cursor: pointer;
+            -webkit-transition: all .1s ease-out;
+            transition: all .1s ease-out;
+            position: relative;
+            z-index: 998;
+            overflow: hidden;
+            background: aliceblue;
+        }
+
+        .context {
+            width: 100%;
+            position: absolute;
+            top: 50vh;
+        }
+
+            .context h1 {
+                text-align: center;
+                color: #fff;
+                font-size: 50px;
+            }
+
+
+        .area {
+            background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+            width: 100%;
+        }
+    </style>
+    <style>
+        :root {
+            /* animations constants */
+            --steps: 10;
+            --saturation: 80%;
+            --lightness: 60%;
+            --hue-offset: 320;
+            --duration: 5000ms;
+            /* generate some colors */
+            --color-01: hsl( calc(360 / var(--steps) * 1 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-02: hsl( calc(360 / var(--steps) * 2 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-03: hsl( calc(360 / var(--steps) * 3 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-04: hsl( calc(360 / var(--steps) * 4 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-05: hsl( calc(360 / var(--steps) * 5 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-06: hsl( calc(360 / var(--steps) * 6 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-07: hsl( calc(360 / var(--steps) * 7 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-08: hsl( calc(360 / var(--steps) * 8 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-09: hsl( calc(360 / var(--steps) * 9 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-10: hsl( calc(360 / var(--steps) * 10 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-11: hsl( calc(360 / var(--steps) * 11 + var(--hue-offset)), var(--saturation), var(--lightness) );
+            --color-crayon: #202036;
+            /* build some backgrounds */
+            --bg-01-a: no-repeat left 0% top / 11% 0% linear-gradient(to right, var(--color-01), var(--color-02));
+            --bg-01-b: no-repeat left 0% top / 11% 100% linear-gradient(to right, var(--color-01), var(--color-02));
+            --bg-02-a: no-repeat left 11.11% bottom / 11% 0% linear-gradient(to right, var(--color-02), var(--color-03));
+            --bg-02-b: no-repeat left 11.11% bottom / 11% 100% linear-gradient(to right, var(--color-02), var(--color-03));
+            --bg-03-a: no-repeat left 22.22% top / 11% 0% linear-gradient(to right, var(--color-03), var(--color-04));
+            --bg-03-b: no-repeat left 22.22% top / 11% 100% linear-gradient(to right, var(--color-03), var(--color-04));
+            --bg-04-a: no-repeat left 33.33% bottom / 11% 0% linear-gradient(to right, var(--color-04), var(--color-05));
+            --bg-04-b: no-repeat left 33.33% bottom / 11% 100% linear-gradient(to right, var(--color-04), var(--color-05));
+            --bg-05-a: no-repeat left 44.44% top / 11% 0% linear-gradient(to right, var(--color-05), var(--color-06));
+            --bg-05-b: no-repeat left 44.44% top / 11% 100% linear-gradient(to right, var(--color-05), var(--color-06));
+            --bg-06-a: no-repeat left 55.55% bottom / 11% 0% linear-gradient(to right, var(--color-06), var(--color-07));
+            --bg-06-b: no-repeat left 55.55% bottom / 11% 100% linear-gradient(to right, var(--color-06), var(--color-07));
+            --bg-07-a: no-repeat left 66.66% top / 11% 0% linear-gradient(to right, var(--color-07), var(--color-08));
+            --bg-07-b: no-repeat left 66.66% top / 11% 100% linear-gradient(to right, var(--color-07), var(--color-08));
+            --bg-08-a: no-repeat left 77.77% bottom / 11% 0% linear-gradient(to right, var(--color-08), var(--color-09));
+            --bg-08-b: no-repeat left 77.77% bottom / 11% 100% linear-gradient(to right, var(--color-08), var(--color-09));
+            --bg-09-a: no-repeat left 88.88% top / 11% 0% linear-gradient(to right, var(--color-09), var(--color-10));
+            --bg-09-b: no-repeat left 88.88% top / 11% 100% linear-gradient(to right, var(--color-09), var(--color-10));
+            --bg-10-a: no-repeat left 99.99% bottom / 11% 0% linear-gradient(to right, var(--color-10), var(--color-11));
+            --bg-10-b: no-repeat left 99.99% bottom / 12% 100% linear-gradient(to right, var(--color-10), var(--color-11));
+        }
+
+        .rainbow-marker-loader {
+            height: 4rem;
+            width: 20rem;
+            max-width: 100%;
+            border: 0.5rem solid var(--color-crayon);
+            border-radius: 0.5rem;
+            animation: infinite alternate rainbow-fill var(--duration) ease-in-out;
+            box-sizing: border-box;
+            position: relative;
+            margin: 1rem;
+            background: var(--bg-01-a), var(--bg-02-a), var(--bg-03-a), var(--bg-04-a), var(--bg-05-a), var(--bg-06-a), var(--bg-07-a), var(--bg-08-a), var(--bg-09-a), var(--bg-10-a);
+        }
+
+            .rainbow-marker-loader::after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                transform-origin: left center;
+                border-radius: 0.5rem;
+                box-sizing: border-box;
+                margin-top: -7.5%;
+                margin-left: -2.5%;
+                animation: infinite alternate move-marker var(--duration) ease-in-out;
+                background: no-repeat left 0% top / 3rem 50% linear-gradient( to bottom right, transparent, transparent 40%, var(--color-crayon) 40% ), no-repeat left 0% bottom / 3rem 50% linear-gradient( to top right, transparent, transparent 40%, var(--color-crayon) 40% ), no-repeat left 3rem bottom / 100% 100% linear-gradient(var(--color-crayon), var(--color-crayon));
+            }
+
+        @keyframes move-marker {
+            10% {
+                transform: translate(5%, 100%) rotate(2.5deg);
+            }
+
+            20% {
+                transform: translate(20%, 0) rotate(-5deg);
+            }
+
+            30% {
+                transform: translate(30%, 100%) rotate(2.5deg);
+            }
+
+            40% {
+                transform: translate(40%, 0) rotate(-5deg);
+            }
+
+            50% {
+                transform: translate(50%, 100%) rotate(2.5deg);
+            }
+
+            60% {
+                transform: translate(60%, 0) rotate(-5deg);
+            }
+
+            70% {
+                transform: translate(70%, 100%) rotate(2.5deg);
+            }
+
+            80% {
+                transform: translate(80%, 0) rotate(-5deg);
+            }
+
+            90% {
+                transform: translate(90%, 100%) rotate(2.5deg);
+            }
+
+            100% {
+                transform: translate(100%, 0) rotate(-5deg);
+            }
+        }
+
+        @keyframes rainbow-fill {
+            0% {
+                background: var(--bg-01-a), var(--bg-02-a), var(--bg-03-a), var(--bg-04-a), var(--bg-05-a), var(--bg-06-a), var(--bg-07-a), var(--bg-08-a), var(--bg-09-a), var(--bg-10-a);
+            }
+
+            10% {
+                background: var(--bg-01-b), var(--bg-02-a), var(--bg-03-a), var(--bg-04-a), var(--bg-05-a), var(--bg-06-a), var(--bg-07-a), var(--bg-08-a), var(--bg-09-a), var(--bg-10-a);
+            }
+
+            20% {
+                background: var(--bg-01-b), var(--bg-02-b), var(--bg-03-a), var(--bg-04-a), var(--bg-05-a), var(--bg-06-a), var(--bg-07-a), var(--bg-08-a), var(--bg-09-a), var(--bg-10-a);
+            }
+
+            30% {
+                background: var(--bg-01-b), var(--bg-02-b), var(--bg-03-b), var(--bg-04-a), var(--bg-05-a), var(--bg-06-a), var(--bg-07-a), var(--bg-08-a), var(--bg-09-a), var(--bg-10-a);
+            }
+
+            40% {
+                background: var(--bg-01-b), var(--bg-02-b), var(--bg-03-b), var(--bg-04-b), var(--bg-05-a), var(--bg-06-a), var(--bg-07-a), var(--bg-08-a), var(--bg-09-a), var(--bg-10-a);
+            }
+
+            50% {
+                background: var(--bg-01-b), var(--bg-02-b), var(--bg-03-b), var(--bg-04-b), var(--bg-05-b), var(--bg-06-a), var(--bg-07-a), var(--bg-08-a), var(--bg-09-a), var(--bg-10-a);
+            }
+
+            60% {
+                background: var(--bg-01-b), var(--bg-02-b), var(--bg-03-b), var(--bg-04-b), var(--bg-05-b), var(--bg-06-b), var(--bg-07-a), var(--bg-08-a), var(--bg-09-a), var(--bg-10-a);
+            }
+
+            70% {
+                background: var(--bg-01-b), var(--bg-02-b), var(--bg-03-b), var(--bg-04-b), var(--bg-05-b), var(--bg-06-b), var(--bg-07-b), var(--bg-08-a), var(--bg-09-a), var(--bg-10-a);
+            }
+
+            80% {
+                background: var(--bg-01-b), var(--bg-02-b), var(--bg-03-b), var(--bg-04-b), var(--bg-05-b), var(--bg-06-b), var(--bg-07-b), var(--bg-08-b), var(--bg-09-a), var(--bg-10-a);
+            }
+
+            90% {
+                background: var(--bg-01-b), var(--bg-02-b), var(--bg-03-b), var(--bg-04-b), var(--bg-05-b), var(--bg-06-b), var(--bg-07-b), var(--bg-08-b), var(--bg-09-b), var(--bg-10-a);
+            }
+
+            100% {
+                background: var(--bg-01-b), var(--bg-02-b), var(--bg-03-b), var(--bg-04-b), var(--bg-05-b), var(--bg-06-b), var(--bg-07-b), var(--bg-08-b), var(--bg-09-b), var(--bg-10-b);
+            }
+        }
+
+        /* for demo */
+
+        .title {
+            color: var(--color-crayon);
+            font-size: 1.5rem;
+            font-family: Cairo, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0 0 -10px 100px;
+        }
+
+        #loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 10%;
+            margin: -100px 0 0 -150px;
+        }
+
+        .loading-bg {
+            z-index: 100000;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: aliceblue
+        }
+    </style>
+
+<style type="text/css">.TnITTtw-fp-collapsed-button {
+    display: none;
+    position: fixed !important;
+    top: 16px !important;
+    right: 16px !important;
+}
+
+.TnITTtw-fp-collapsed-button:hover {
+    opacity: 1.0 !important;
+}
+
+.TnITTtw-mate-fp-bar {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+    color: #000;
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 999;
+    background: rgb(255 255 255 / 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 16px;
+    border-radius: 11px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+    width: 320px;
+    line-height: initial;
+}
+
+@-moz-document url-prefix() {
+    .TnITTtw-mate-fp-bar {
+        background: rgb(255 255 255 / 1.0);
+    }
+}
+
+.TnITTtw-mate-fp-bar.TnITTtw-dark-mode {
+    background: rgb(44, 44, 43);
+}
+
+.TnITTtw-hide-fp-bar {
+    width: 12px;
+    height: 12px;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.TnITTtw-hide-fp-bar:hover {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+}
+
+.TnITTtw-current-page-lang {
+    color: #6d6d72;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.TnITTtw-dark-mode .TnITTtw-current-page-lang {
+    color: #98989D;
+}
+
+.TnITTtw-fp-translate {
+    width: calc(100% - 73px) !important;
+    font-size: 14px !important;
+    text-transform: none !important;
+}
+
+.TnITTtw-fp-translate.TnITTtw-in-progress {
+    animation-name: funky-bg;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+}
+
+.TnITTtw-fp-translate.TnITTtw-show-original {
+    width: calc(100% - 20px) !important;
+}
+
+@keyframes funky-bg {
+    from {
+        background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+        linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+    }
+
+    to {
+        background-image: linear-gradient(90deg, #01EF92, #00D8FB),
+        linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+    }
+}
+
+.TnITTtw-change-language, .TnITTtw-stop-fp {
+    width: 38px;
+    height: 38px;
+    background-color: #EFEFF4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    border-radius: 11px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.TnITTtw-change-language {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth.png) !important;
+}
+
+.TnITTtw-dark-mode .TnITTtw-change-language {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth-dark.png) !important;
+}
+
+.TnITTtw-stop-fp {
+    display: none;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-stt-stop.png) !important;
+    background-size: 12px 12px;
+}
+
+.TnITTtw-dark-mode .TnITTtw-change-language, .TnITTtw-dark-mode .TnITTtw-stop-fp {
+    background-color: #525251 !important;
+}
+
+.TnITTtw-change-language:hover, .TnITTtw-stop-fp:hover {
+    background-color: #F6F6F6;
+}
+
+.TnITTtw-change-language:active, .TnITTtw-stop-fp:active {
+    background-color: #E9E9E9;
+}
+
+.TnITTtw-dark-mode .TnITTtw-change-language:hover,
+.TnITTtw-dark-mode .TnITTtw-stop-fp:hover,
+.TnITTtw-dark-mode .TnITTtw-change-language:active,
+.TnITTtw-dark-mode .TnITTtw-stop-fp:active {
+    background-color: #767675;
+}
+
+#TnITTtw-always-translate {
+}
+
+.TnITTtw-fp-options input {
+    padding: initial;
+    width: auto;
+    border: initial;
+    box-shadow: initial;
+    line-height: initial;
+    height: auto;
+    display: initial;
+    position: initial;
+    appearance: auto;
+    top: initial;
+    cursor: pointer;
+    margin: 0;
+}
+
+.TnITTtw-fp-options input[readonly="readonly"] {
+    opacity: 0.5;
+}
+
+#TnITTtw-always-translate + label,
+#TnITTtw-never-translate-lang + label,
+#TnITTtw-never-translate-site + label {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 4px;
+    color: #000;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 296px;
+    vertical-align: top;
+    line-height: initial;
+    letter-spacing: initial;
+    text-transform: initial;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#TnITTtw-always-translate + label::before,
+#TnITTtw-never-translate-lang + label::before,
+#TnITTtw-never-translate-site + label::before,
+#TnITTtw-always-translate + label::after,
+#TnITTtw-never-translate-lang + label::after,
+#TnITTtw-never-translate-site + label::after  {
+    content: initial;
+} 
+
+.TnITTtw-always-translate-inner-label {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 252px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.TnITTtw-dark-mode #TnITTtw-always-translate + label,
+.TnITTtw-dark-mode #TnITTtw-never-translate-lang + label,
+.TnITTtw-dark-mode #TnITTtw-never-translate-site + label {
+    color: #FFF;
+}
+
+#TnITTtw-always-translate + label.TnITTtw-not-pro {
+    opacity: 0.5;
+}
+
+#TnITTtw-always-translate + label .TnITTtw-pro-label {
+    position: relative;
+    background: #000;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+    top: -1px;
+    user-select: none;
+    -webkit-user-select: none;
+    display: inline;
+    font-weight: 500;
+}
+
+.TnITTtw-dark-mode #TnITTtw-always-translate + label .TnITTtw-pro-label {
+    background: #FFF;
+    color: #000;
+}
+
+.TnITTtw-inline-original-tooltip {
+    display: none;
+    position: absolute;
+    margin: 0px;
+    border: none;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255 255 255 / 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 11px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.TnITTtw-dark-mode.TnITTtw-inline-original-tooltip {
+    background-color: rgb(0 0 0 / 0.915);
+    color: #FFF;
+}
+
+.TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip {
+    width: 12px;
+    height: 12px;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip:hover {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+}
+
+.TnITTtw-inline-original-tooltip .TnITTtw-original-label {
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #6d6d72;
+    margin-bottom: 10px;
+}
+
+.TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-original-label {
+    color: #98989D;
+}
+
+.TnITTtw-inline-original-tooltip .TnITTtw-text-layout {
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+}
+
+.TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-text-layout {
+    color: #FFF;
+}
+
+.TnITTtw-highlighted-for-original {
+    color: #0F0F5F;
+    background-color: #F0F0A0;
+}
+
+/* Dropdown scrollbars */
+
+#selVisibleScroll-1, #selVisibleScroll-2, #selVisibleScroll-3 {
+    overflow: hidden;
+    height: 259px;
+    width: 100%;
+    position: relative;
+}
+
+#sel-scrollbar-1, #sel-scrollbar-2, #sel-scrollbar-3 {
+    position: absolute;
+    width: 4px;
+    height: 259px;
+    left: 225px;
+}
+
+#sel-track-1, #sel-track-2, #sel-track-3 {
+    position: absolute;
+    top: 1px;
+    width: 4px;
+    height: calc(100% - 6px);
+}
+
+#sel-dragBar-1, #sel-dragBar-2, #sel-dragBar-3 {
+    position: absolute;
+    top: 1px;
+    width: 4px;
+    background: rgba(43, 43, 43, 0.5);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dark-mode #sel-dragBar-1, .dark-mode #sel-dragBar-2, .dark-mode #sel-dragBar-3 {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#sel-dragBar-1:hover, #sel-dragBar-2:hover, #sel-dragBar-3:hover, 
+#sel-dragBar-1:active, #sel-dragBar-2:active, #sel-dragBar-3:active {
+    background: rgba(43, 43, 43, 0.675);
+}
+
+.dark-mode #sel-dragBar-1:hover,
+.dark-mode #sel-dragBar-2:hover,
+.dark-mode #sel-dragBar-3:hover,
+.dark-mode #sel-dragBar-1:active,
+.dark-mode #sel-dragBar-2:active,
+.dark-mode #sel-dragBar-3:active {
+    background: rgba(255, 255, 255, 0.675);
+}
+
+#sel-scrollbar-1, #sel-track-1, #sel-dragBar-1, 
+#sel-scrollbar-2, #sel-track-2, #sel-dragBar-2,
+#sel-scrollbar-3, #sel-track-3, #sel-dragBar-3 {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Spinner for when it's translating a page */
+
+.TnITTtw-cta-button-layout {
+    position: relative;
+    display: inline;
+}
+
+.TnITTtw-spinner {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+  @media screen and (max-width: 800px) {
+    .TnITTtw-spinner {
+      top: 28px;
+    }
+  }
+
+  .TnITTtw-spinner.in-text {
+    display: block;
+    background: transparent;
+    position: initial;
+  }
+
+  .TnITTtw-spinner.left {
+    text-align: left;
+  }
+  
+  .TnITTtw-spinner > div {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(0, 71, 46);
+  
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+
+  .TnITTtw-spinner.in-text > div {
+    background-color: #000;
+  }
+  
+  .TnITTtw-spinner .TnITTtw-bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  
+  .TnITTtw-spinner .TnITTtw-bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  
+  @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+  }</style><style type="text/css">/*
+ * contextMenu.js v 1.4.0
+ * Author: Sudhanshu Yadav
+ * s-yadav.github.com
+ * Copyright (c) 2013 Sudhanshu Yadav.
+ * Dual licensed under the MIT and GPL licenses
+**/
+
+.iw-contextMenu {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10) !important;
+    border: 1px solid #c8c7cc !important;
+    border-radius: 11px !important;
+    display: none;
+    z-index: 1000000132;
+    max-width: 300px !important;
+    width: auto !important;
+}
+
+.dark-mode .iw-contextMenu,
+.TnITTtw-dark-mode.iw-contextMenu,
+.TnITTtw-dark-mode .iw-contextMenu {
+    border-color: #747473 !important;
+}
+
+.iw-cm-menu {
+    background: #fff !important;
+    color: #000 !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow: visible !important;
+}
+
+.dark-mode .iw-cm-menu,
+.TnITTtw-dark-mode.iw-cm-menu,
+.TnITTtw-dark-mode .iw-cm-menu {
+    background: #525251 !important;
+    color: #FFF !important;
+}
+
+.iw-curMenu {
+}
+
+.iw-cm-menu li {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+    list-style: none !important;
+    padding: 10px !important;
+    padding-right: 20px !important;
+    border-bottom: 1px solid #c8c7cc !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    position: relative !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    line-height: inherit !important;
+    border-radius: 0 !important;
+    display: block !important;
+}
+
+.dark-mode .iw-cm-menu li, .TnITTtw-dark-mode .iw-cm-menu li {
+    border-bottom-color: #747473 !important;
+}
+
+.iw-cm-menu li:first-child {
+    border-top-left-radius: 11px !important;
+    border-top-right-radius: 11px !important;
+}
+
+.iw-cm-menu li:last-child {
+    border-bottom-left-radius: 11px !important;
+    border-bottom-right-radius: 11px !important;
+    border-bottom: none !important;
+}
+
+.iw-mOverlay {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0px !important;
+    left: 0px !important;
+    background: #FFF !important;
+    opacity: .5 !important;
+}
+
+.iw-contextMenu li.iw-mDisable {
+    opacity: 0.3 !important;
+    cursor: default !important;
+}
+
+.iw-mSelected {
+    background-color: #F6F6F6 !important;
+}
+
+.dark-mode .iw-mSelected, .TnITTtw-dark-mode .iw-mSelected {
+    background-color: #676766 !important;
+}
+
+.iw-cm-arrow-right {
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 5px solid transparent !important;
+    border-bottom: 5px solid transparent !important;
+    border-left: 5px solid #000 !important;
+    position: absolute !important;
+    right: 5px !important;
+    top: 50% !important;
+    margin-top: -5px !important;
+}
+
+.dark-mode .iw-cm-arrow-right, .TnITTtw-dark-mode .iw-cm-arrow-right {
+    border-left-color: #FFF !important;
+}
+
+.iw-mSelected > .iw-cm-arrow-right {
+}
+
+/*context menu css end */</style><style type="text/css">.ui_selector, .TnITTtw-ui_selector {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+    display: inline-block;
+}
+
+.ui_selector .select, .TnITTtw-ui_selector .TnITTtw-select {
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid rgba(200, 199, 204, 0.5);
+    padding: 10px 15px;
+    width: 201px;
+    -webkit-user-select: none;
+    cursor: pointer;
+    border-radius: 11px;
+    display: inline-block;
+    background-image: -webkit-linear-gradient(top, #FAFAFA, #F6F6F6);
+    background-image: -moz-linear-gradient(top, #FAFAFA, #F6F6F6);
+    background-size: auto 48px;
+    background-position: 0px -11px;
+    box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.10);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dark-mode .ui_selector .select, 
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select {
+    background-image: -webkit-linear-gradient(top, #4A4A49, #40403F);
+    background-image: -moz-linear-gradient(top, #4A4A49, #40403F);
+    color: #FFF;
+    border-color: #747473;
+}
+
+.ui_selector .select:hover,
+.TnITTtw-ui_selector .TnITTtw-select:hover {
+    color: #424242;
+    background-image: -webkit-linear-gradient(top, #FAFAFA, #FAFAFA);
+    background-image: -moz-linear-gradient(top, #FAFAFA, #FAFAFA);
+}
+
+.ui_selector .select:active,
+.TnITTtw-ui_selector .TnITTtw-select:active {
+    color: #6d6d72;
+    background-image: -webkit-linear-gradient(top, #F6F6F6, #F6F6F6);
+    background-image: -moz-linear-gradient(top, #F6F6F6, #F6F6F6);
+}
+
+.dark-mode .ui_selector .select:hover,
+.dark-mode .ui_selector .select:active,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:hover,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:active {
+    background-image: -webkit-linear-gradient(top, #4A4A49, #4A4A49);
+    background-image: -moz-linear-gradient(top, #4A4A49, #4A4A49);
+    color: #FFF;
+    border-color: #747473;
+}
+
+.ui_selector .select .detected-ico,
+.TnITTtw-ui_selector .TnITTtw-select .TnITTtw-detected-ico {
+    display: inline-block;
+}
+
+.ui_selector .active, .ui_selector .active:hover, .ui_selector .active:active,
+.TnITTtw-ui_selector .TnITTtw-active, .TnITTtw-ui_selector .TnITTtw-active:hover, .TnITTtw-ui_selector .TnITTtw-active:active {
+    box-shadow: 0 -1px 15px -10px rgba(0, 0, 0, 0.85) !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #F3F3F3;
+}
+
+.sliding-text,
+.TnITTtw-sliding-text {
+    position: relative;
+}
+
+.ui_selector .options,
+.TnITTtw-ui_selector .TnITTtw-options {
+    margin-left: 0px;
+    margin-top: -4px;
+    background: #fff;
+    border: 1px solid rgba(200, 199, 204, 0.5);
+    width: 231px;
+    overflow: hidden;
+    max-height: 313px;
+    position: absolute;
+    font-size: 12px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: none;
+}
+
+.ui_selector .options.standalone,
+.TnITTtw-ui_selector .TnITTtw-options.TnITTtw-standalone {
+    border-radius: 11px;
+    margin-top: 16px;
+}
+
+/* for now, it can only be on the top */
+.ui_selector .options-arrow,
+.TnITTtw-ui_selector .TnITTtw-options-arrow {
+    display: none;
+    position: absolute;
+    width: 32px !important;
+    height: 18px !important;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow.png);
+    background-size: 32px 18px;
+    transform: rotate(180deg);
+    margin-top: -1px;
+}
+
+.dark-mode .ui_selector .options-arrow,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options-arrow {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow-dark.png);
+}
+
+.dark-mode .ui_selector .options,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options {
+    background: #525251;
+}
+
+.ui_selector .options ul,
+.TnITTtw-ui_selector .TnITTtw-options ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 232px;
+}
+
+.ui_selector .options ul li,
+.TnITTtw-ui_selector .TnITTtw-options ul li {
+    padding: 10px 0px;
+    -webkit-user-select: none;
+    text-align: center;
+    font-size: 17px;
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    margin: 0 10px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.dark-mode .options ul li,
+.TnITTtw-dark-mode .TnITTtw-options ul li {
+    color: #fff;
+}
+
+.ui_selector .options ul li:last-child,
+.TnITTtw-ui_selector .TnITTtw-options ul li:last-child {
+    margin-bottom: 16px;
+}
+
+.ui_selector .options ul li.option:first-child,
+.ui_selector .options ul li.option_selected:first-child,
+.TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option:first-child,
+.TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected:first-child {
+    margin-top: 16px;
+}
+
+.ui_selector .options ul li.whenHover,
+.TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+    cursor: pointer;
+    background: #f3f3f3;
+    text-align: center;
+}
+
+.dark-mode .ui_selector .options ul li.whenHover,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.ui_selector .options ul li.option_selected,
+.TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected {
+    cursor: pointer;
+    background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+    linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+    color: #fff;
+    font-weight: 600;
+}
+
+.ui_selector .options ul .group,
+.ui_selector .options ul .group:hover,
+.ui_selector .options ul .group.whenHover,
+.TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+.TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+.TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.whenHover {
+    padding: 16px 10px;
+    color: #8e8e93;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    cursor: default;
+    background: #FFF;
+}
+
+.dark-mode .ui_selector .options ul .group,
+.dark-mode .ui_selector .options ul .group:hover,
+.dark-mode .ui_selector .options ul .group.whenHover,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.TnITTtw-whenHover {
+    color: #98989D;
+    background: #525251;
+}
+
+.group-element,
+.TnITTtw-group-element {
+    width: 153px;
+}
+
+.options .dd-search,
+.TnITTtw-options .TnITTtw-dd-search {
+    border-bottom: 1px solid rgba(200, 199, 204, 0.5);
+}
+
+.dark-mode .options .dd-search,
+.TnITTtw-dark-mode .TnITTtw-options .TnITTtw-dd-search {
+    border-bottom-color: #747473;
+}
+
+.dd-search .dd-input,
+.TnITTtw-dd-search .TnITTtw-dd-input {
+    padding: 16px;
+    padding-left: calc(16px * 3);
+    width: 168px;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+    text-align: left;
+    color: #000;
+    font-size: 17px;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/searchfield-icon.png);
+    background-position: 16px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: auto;
+}
+
+.dark-mode .dd-search .dd-input,
+.TnITTtw-dark-mode .TnITTtw-dd-search .TnITTtw-dd-input {
+    color: #FFF;
+    background-color: #525251;
+}
+
+.dd-search .dd-input:focus,
+.TnITTtw-dd-search .TnITTtw-dd-input:focus {
+    -webkit-transition: all 275ms cubic-bezier(0.23, 1, 0.32, 1);
+    outline: none;
+    text-align: left;
+}
+
+.dd-input::-webkit-input-placeholder,
+.TnITTtw-dd-input::-webkit-input-placeholder {
+    color: #8e8e93;
+}
+
+.search-failed-plaque,
+.TnITTtw-search-failed-plaque {
+    text-align: center;
+    padding: 20px;
+    color: #8e8e93;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.dark-mode .search-failed-plaque,
+.TnITTtw-dark-mode .TnITTtw-search-failed-plaque {
+    color: #98989D;
+}
+
+.rm-recent,
+.TnITTtw-rm-recent {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-lang-remove.png);
+    background-size: 10px 10px;
+    top: 15px;
+    right: 10px;
+}
+
+.rm-recent:hover,
+.TnITTtw-rm-recent:hover {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-lang-remove.png);
+}
+
+.rm-recent:active,
+.TnITTtw-rm-recent:active {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-lang-remove.png);
+}
+
+.option_selected .rm-recent,
+.TnITTtw-option_selected .TnITTtw-rm-recent {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+}
+
+.option_selected .rm-recent:hover,
+.TnITTtw-option_selected .TnITTtw-rm-recent:hover {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-active-lang-remove.png);
+}
+
+.option_selected .rm-recent:active,
+.TnITTtw-option_selected .TnITTtw-rm-recent:active {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+}
+
+.TnITTtw-hidden {
+    display: none;
+}</style><style type="text/css">@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+<body id="bg">
+    <div class="loading-bg" style="display: none;">
+        <div id="loading">
+            <h1 class="title">جاري التحميل</h1>
+            <div class="rainbow-marker-loader"></div>
+        </div>
+    </div>
+    <div class="page-wraper">
+
+        <!-- header -->
+        <header class="site-header header mo-left">
+            <!-- main header -->
+            <div class="sticky-header main-bar-wraper navbar-expand-lg">
+                <div class="main-bar clearfix ">
+                    <div class="container clearfix">
+
+                        <!-- main nav -->
+                        <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+                            <ul class="nav navbar-nav">
+
+                                <li><a href="#">الصفحة الرئيسية <i class="fa"></i></a></li>
+                                <li><a href="#"> أخبارنا </a></li>
+                                </li>
+      <li class="account-item" style="background: #366298;">
+    <a class=""><div class="image">
+        <img id="profilepic" src="https://portal.sha.edu.eg/images/miniPortalLogo.png">
+</div>  عادل محمد </a>
+    
+    <ul class="sub-menu">
+        <li> <a href="#" style="direction: ltr !important; text-transform: none !important;">127224073@sha.edu.eg</a></li>
+        <li> <a href="#" style="direction: ltr !important; text-transform: none !important;">Microsoft Teams</a></li>
+        <li> <a href="#" style="direction: ltr !important; text-transform: none !important;">Outlook</a></li>
+        <li> <div class="dropdown-divider"></div></li>
+        <li><a href="#">تسجيل الخروج</a></li>
+
+    </ul>
+</li>
+
+
+
+                            </ul>
+                        </div>
+                        <!-- website logo -->
+                        <div class="logo-header mostion">
+                            <a href="#" class="dez-page"><img src="https://portal.sha.edu.eg/images/miniPortalLogo.png" alt=""></a>
+                        </div>
+                        <!-- nav toggle button -->
+                        <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- main header END -->
+        </header>
+        <!-- header END -->
+        <div>
+            <main role="main" class="pb-3">
+                
+
+                <div class="container result21" style="direction:rtl">
+
+        <h3 style=" text-align-last: center;"> نتيجة امتحانات العام الدراسي 2021 / 2022 </h3>
+        <style>
+            .progress {
+            }
+        </style>
+            <div class="" style=" overflow-x:auto;">
+                        <table class="table table-bordered  mb-5">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">الإسم</th>
+                                    <th scope="col">المعهد</th>
+                                    <th scope="col">الفرقة</th>
+                                    <th scope="col">القسم / الشعبة</th>
+                                    <th scope="col">االدرجة الاجمالية</th>
+                                    <th scope="col">النسبة المئوية</th>
+                                    <th scope="col">التقدير العام</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">عادل محمد محمود حسين يونس</th>
+                                    <td>المعهد العالي للهندسة</td>
+                                    <td>الاعدادية</td>
+                                    <td>عام</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>باق للإعادة</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table table-bordered table-hover table-active font-12">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">مسلسل</th>
+                                    <th scope="col">إسم المادة</th>
+                                    <th scope="col">الترم</th>
+                                    <th scope="col">التقدير</th>
+                                    <th scope="col" rowspan="2">الدرجة النهائية للمواد الممتده</th>
+                                    <th>ملاحظات</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="background-color: #fff3cd;">
+
+
+                                    <th scope="row">1</th>
+                                    <td>تاريخ الهندسة والتكنولوجيا</td>
+                                        <td>ترم ثاني</td>
+                                    <td>ل</td>
+                                        <td></td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #fff3cd;">
+
+
+                                    <th scope="row">2</th>
+                                    <td>تكنولوجيا الإنتاج</td>
+                                        <td>ترم ثاني</td>
+                                    <td>ل</td>
+                                        <td></td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #fff3cd;">
+
+
+                                    <th scope="row">3</th>
+                                    <td>رسم هندسى وإسقاط</td>
+                                        <td>ترم أول</td>
+                                    <td>ل</td>
+                                                <td rowspan="2" style="vertical-align : middle;text-align:center;">ل</td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #fff3cd;">
+
+
+                                    <th scope="row">4</th>
+                                    <td>رسم هندسى وإسقاط</td>
+                                        <td>ترم ثاني</td>
+                                    <td>ل</td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #f8d7da;">
+
+
+                                    <th scope="row">5</th>
+                                    <td>رياضيات</td>
+                                        <td>ترم ثاني</td>
+                                    <td>ضـ</td>
+                                                <td rowspan="2" style="vertical-align : middle;text-align:center;">ض</td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #f8d7da;">
+
+
+                                    <th scope="row">6</th>
+                                    <td>رياضيات</td>
+                                        <td>ترم أول</td>
+                                    <td>ضـ</td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #fff3cd;">
+
+
+                                    <th scope="row">7</th>
+                                    <td>فيزياء</td>
+                                        <td>ترم ثاني</td>
+                                    <td>ل</td>
+                                                <td rowspan="2" style="vertical-align : middle;text-align:center;">ل</td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #fff3cd;">
+
+
+                                    <th scope="row">8</th>
+                                    <td>فيزياء</td>
+                                        <td>ترم أول</td>
+                                    <td>ل</td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #f8d7da">
+
+
+                                    <th scope="row">9</th>
+                                    <td>كيمياء</td>
+                                        <td>ترم أول</td>
+                                    <td>ضـ</td>
+                                        <td></td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #fff3cd;">
+
+
+                                    <th scope="row">10</th>
+                                    <td>لغة انجليزية فنية(1)</td>
+                                        <td>ترم أول</td>
+                                    <td>ل</td>
+                                        <td></td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #fff3cd;">
+
+
+                                    <th scope="row">11</th>
+                                    <td>لغة إنجليزية فنية(2)</td>
+                                        <td>ترم ثاني</td>
+                                    <td>ل</td>
+                                        <td></td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #fff3cd;">
+
+
+                                    <th scope="row">12</th>
+                                    <td>مهارة استخدام الحاسب</td>
+                                        <td>ترم أول</td>
+                                    <td>ل</td>
+                                        <td></td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #f8d7da;">
+
+
+                                    <th scope="row">13</th>
+                                    <td>ميكانيكا</td>
+                                        <td>ترم أول</td>
+                                    <td>ضـ</td>
+                                                <td rowspan="2" style="vertical-align : middle;text-align:center;">ض</td>
+
+                                    <td></td>
+                                </tr>
+                                <tr style="background-color: #f8d7da;">
+
+
+                                    <th scope="row">14</th>
+                                    <td>ميكانيكا</td>
+                                        <td>ترم ثاني</td>
+                                    <td>ضـ</td>
+
+                                    <td></td>
+                                </tr>
+                    </tbody>
+                        </table>
+            </div>
+</div>
+<script>       
+
+    function pcent(x) {
+        var val = x
+        var $circle = document.querySelector("#svg #bar");
+
+        if (isNaN(val)) {
+            val = 100;
+        }
+        else {
+            var r = $circle.attr('r');
+            var c = Math.PI * (r * 2);
+
+            if (val < 0) { val = 0; }
+            if (val > 100) { val = 100; }
+
+            var pct = ((100 - val) / 100) * c;
+
+            $circle.setAttribute("style", "strokeDashoffset: pct;")
+            document.querySelector("#cont").setAttribute("data-pct", "pct")
+
+        }
+    };
+</script>
+
+            </main>
+        </div>
+
+        <!-- Content END-->
+        <!-- Footer -->
+        <footer class="site-footer footer d-print-none" id="site_footer">
+
+            <!-- footer bottom part -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 text-right"> جميع الحقوق محفوظة <spam> © 2021 </spam> مركز نظم المعلومات أكاديمية الشروق </div>
+                        <div class="col-md-6 col-sm-6  text-left">
+                            <ul class="fb-list">
+                                <li><a href="#">الصفحة الرئيسية</a></li>
+                                <li><a href="#">عن الاكاديمية</a></li>
+                                <li><a href="#"> الخريطة التعليمية </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer END-->
+        <button class="scroltop fa fa-chevron-up"></button>
+    </div>
+    <div class="fabs" style="visibility:hidden">
+        <div class="chat">
+            <div class="chat_header">
+                <div class="chat_option">
+                    <span id="chat_head">الخدمات الالكترونية</span> <br> <span class="agent">BOT</span> <span class="online">(نشط)</span>
+                    <span id="chat_fullscreen_loader" class="chat_fullscreen_loader" style="display: none;"><i class="fullscreen zmdi zmdi-window-maximize"></i></span>
+
+                </div>
+
+            </div>
+            <div class="chat_body chat_login" style="display: block;">
+                <a id="chat_first_screen" class="fab"><i class="zmdi zmdi-arrow-right"></i></a>
+                <p>تم صميم هذا البوت لمساعدة الطلبة في كافة الخدمات الالكترونية</p>
+            </div>
+
+
+            <div class="fab_field">
+
+                <a id="fab_send" class="fab"><i class="zmdi zmdi-mail-send"></i></a>
+                <textarea id="chatSend" name="chat_message" placeholder="Send a message" class="chat_field chat_message"></textarea>
+            </div>
+        </div>
+        <a id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></a>
+
+
+ 
+    </div>
+
+    <!-- JAVASCRIPT FILES ========================================= -->
+    <script src="./Elshorouk Academy Services_files/jquery.min.js.download"></script>
+    <script src="./Elshorouk Academy Services_files/popper.min.js.download"></script>
+    <script src="./Elshorouk Academy Services_files/bootstrap.bundle.min.js.download"></script>
+    <script src="./Elshorouk Academy Services_files/site.js.download"></script>
+             <script src="./Elshorouk Academy Services_files/MethodHIE.js.download"></script>
+             <script src="./Elshorouk Academy Services_files/MethodHIEGraph.js.download"></script>
+             <script src="./Elshorouk Academy Services_files/MethodHICIT.js.download"></script>
+             <script src="./Elshorouk Academy Services_files/MethodHICITGraph.js.download"></script>
+             <script src="./Elshorouk Academy Services_files/MethodIHMI.js.download"></script>
+             <script src="./Elshorouk Academy Services_files/MethodIHMIGraph.js.download"></script>
+             <script src="./Elshorouk Academy Services_files/meeting.js.download"></script>
+   
+   
+    <script src="./Elshorouk Academy Services_files/jszip.js.download"></script>
+    <script src="./Elshorouk Academy Services_files/xlsx.min.js.download"></script>
+    <script type="text/javascript" src="./Elshorouk Academy Services_files/toastr.min.js.download"></script>
+    <script src="./Elshorouk Academy Services_files/sweetalert.min.js.download"></script>
+    <script src="./Elshorouk Academy Services_files/bot.js.download"></script>
+    
+
+    
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+        const wait = (delay = 0) =>
+            new Promise(resolve => setTimeout(resolve, delay));
+
+        const setVisible = (elementOrSelector, visible) =>
+            (typeof elementOrSelector === 'string'
+                ? document.querySelector(elementOrSelector)
+                : elementOrSelector
+            ).style.display = visible ? 'block' : 'none';
+
+
+        document.addEventListener('DOMContentLoaded', () =>
+            wait(100).then(() => {
+                setVisible('.loading-bg', false);
+            }));
+        $(document).on('click', 'a', function () {
+            var attr = $(this).attr('href');
+            if (typeof attr !== 'undefined' && attr !== false) {
+                if ($(this).attr('href') == null || $(this).attr('href').substring(0, 1) == "#" || $(this).attr('href') == "" || $(this).hasClass('notdir')) { } else {
+                    setVisible('.loading-bg', true);
+                }
+            }
+
+
+
+        });
+
+        window.addEventListener("pagehide", function () {
+            setVisible('.loading-bg', false);
+
+
+        }, false);
+    </script>
+
+
+
+<textarea id="BFI_DATA" style="width: 1px; height: 1px; display: none;"></textarea><title> </title><div id="WidgetFloaterPanels" translate="no" style="display: none; text-align: left; direction: ltr; visibility: hidden;" class="LTRStyle"> <div id="WidgetFloater" style="display: none" onmouseover="Microsoft.Translator.OnMouseOverFloater()" onmouseout="Microsoft.Translator.OnMouseOutFloater()"> <div id="WidgetLogoPanel"> <span id="WidgetTranslateWithSpan"><span>TRANSLATE with </span><img id="FloaterLogo"></span> <span id="WidgetCloseButton" title="Exit Translation" onclick="Microsoft.Translator.FloaterOnClose()">x</span></div> <div id="LanguageMenuPanel"> <div class="DDStyle_outer"><input name="LanguageMenu_svid" type="text" id="LanguageMenu_svid" style="display:none;" autocomplete="on" value="en" onclick="this.select()"> <input name="LanguageMenu_textid" type="text" id="LanguageMenu_textid" style="display:none;" autocomplete="on" onclick="this.select()"> <span onselectstart="return false" tabindex="0" class="DDStyle" id="__LanguageMenu_header" onclick="return LanguageMenu &amp;&amp; !LanguageMenu.Show(&#39;__LanguageMenu_popup&#39;, event);" onkeydown="return LanguageMenu &amp;&amp; !LanguageMenu.Show(&#39;__LanguageMenu_popup&#39;, event);">English</span> <div style="position:relative;text-align:left;left:0;"><div style="position:absolute;width:;left:0px;"><div class="DDStyle" style="display:none;" id="__LanguageMenu_popup"> <table id="LanguageMenu" border="0"> <tbody><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;ar&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#ar">Arabic</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;he&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#he">Hebrew</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;pl&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#pl">Polish</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;bg&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#bg">Bulgarian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;hi&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#hi">Hindi</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;pt&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#pt">Portuguese</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;ca&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#ca">Catalan</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;mww&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#mww">Hmong Daw</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;ro&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#ro">Romanian</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;zh-CHS&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#zh-CHS">Chinese Simplified</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;hu&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#hu">Hungarian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;ru&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#ru">Russian</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;zh-CHT&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#zh-CHT">Chinese Traditional</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;id&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#id">Indonesian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;sk&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#sk">Slovak</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;cs&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#cs">Czech</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;it&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#it">Italian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;sl&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#sl">Slovenian</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;da&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#da">Danish</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;ja&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#ja">Japanese</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;es&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#es">Spanish</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;nl&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#nl">Dutch</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;tlh&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#tlh">Klingon</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;sv&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#sv">Swedish</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;en&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#en">English</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;ko&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#ko">Korean</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;th&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#th">Thai</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;et&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#et">Estonian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;lv&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#lv">Latvian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;tr&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#tr">Turkish</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;fi&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#fi">Finnish</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;lt&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#lt">Lithuanian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;uk&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#uk">Ukrainian</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;fr&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#fr">French</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;ms&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#ms">Malay</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;ur&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#ur">Urdu</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;de&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#de">German</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;mt&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#mt">Maltese</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;vi&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#vi">Vietnamese</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;el&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#el">Greek</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;no&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#no">Norwegian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;cy&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#cy">Welsh</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;ht&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#ht">Haitian Creole</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick(&#39;fa&#39;);" ondragstart="LanguageMenu.ondragstart(event);" href="https://portal.sha.edu.eg/User/Students/FinalYear#fa">Persian</a></td><td></td> </tr> </tbody></table> <img alt="" style="height:7px;width:17px;border-width:0px;left:20px;"> </div></div></div></div> <script type="text/javascript"> var LanguageMenu; var LanguageMenu_keys=["ar","bg","ca","zh-CHS","zh-CHT","cs","da","nl","en","et","fi","fr","de","el","ht","he","hi","mww","hu","id","it","ja","tlh","ko","lv","lt","ms","mt","no","fa","pl","pt","ro","ru","sk","sl","es","sv","th","tr","uk","ur","vi","cy"]; var LanguageMenu_values=["Arabic","Bulgarian","Catalan","Chinese Simplified","Chinese Traditional","Czech","Danish","Dutch","English","Estonian","Finnish","French","German","Greek","Haitian Creole","Hebrew","Hindi","Hmong Daw","Hungarian","Indonesian","Italian","Japanese","Klingon","Korean","Latvian","Lithuanian","Malay","Maltese","Norwegian","Persian","Polish","Portuguese","Romanian","Russian","Slovak","Slovenian","Spanish","Swedish","Thai","Turkish","Ukrainian","Urdu","Vietnamese","Welsh"]; var LanguageMenu_callback=function(){ }; var LanguageMenu_popupid='__LanguageMenu_popup'; </script> </div> <div id="CTFLinksPanel"> <span id="ExternalLinksPanel"><a id="HelpLink" title="Help" target="_blank" href="https://go.microsoft.com/?linkid=9722454"> <img id="HelpImg"></a> <a id="EmbedLink" href="javascript:Microsoft.Translator.FloaterShowEmbed()" title="Get this widget for your own site"> <img id="EmbedImg"></a> <a id="ShareLink" title="Share translated page with friends" href="javascript:Microsoft.Translator.FloaterShowSharePanel()"> <img id="ShareImg"></a> </span> </div> <div id="FloaterProgressBar"> <span id="ProgressFill"></span> </div> </div> <div id="WidgetFloaterCollapsed" style="display: none" onmouseover="Microsoft.Translator.OnMouseOverFloater()"> <span>TRANSLATE with </span><img id="CollapsedLogoImg"></div> <div id="FloaterSharePanel" style="display: none"> <div id="ShareTextDiv"> <span id="ShareTextSpan"> COPY THE URL BELOW </span> </div> <div id="ShareTextboxDiv"> <input name="ShareTextbox" type="text" id="ShareTextbox" readonly="readonly" onclick="this.select()"> <!--a id="TwitterLink" title="Share on Twitter"> <img id="TwitterImg" /></a> <a-- id="FacebookLink" title="Share on Facebook"> <img id="FacebookImg" /></a--> <a id="EmailLink" title="Email this translation"> <img id="EmailImg"></a> </div> <div id="ShareFooter"> <span id="ShareHelpSpan"><a id="ShareHelpLink"> <img id="ShareHelpImg"></a></span> <span id="ShareBackSpan"><a id="ShareBack" href="javascript:Microsoft.Translator.FloaterOnShareBackClick()" title="Back To Translation"> Back</a></span> </div> <input name="EmailSubject" type="hidden" id="EmailSubject" value="Check out this page in {0} translated from {1}"> <input name="EmailBody" type="hidden" id="EmailBody" value="Translated: {0}%0d%0aOriginal: {1}%0d%0a%0d%0aAutomatic translation powered by Microsoft® Translator%0d%0ahttp://www.bing.com/translator?ref=MSTWidget"> <input type="hidden" id="ShareHelpText" value="This link allows visitors to launch this page and automatically translate it to {0}."> </div> <div id="FloaterEmbed" style="display: none"> <div id="EmbedTextDiv"> <span id="EmbedTextSpan">EMBED THE SNIPPET BELOW IN YOUR SITE</span> <a id="EmbedHelpLink" title="Copy this code and place it into your HTML."> <img id="EmbedHelpImg"></a> </div> <div id="EmbedTextboxDiv"> <input name="EmbedSnippetTextBox" type="text" id="EmbedSnippetTextBox" readonly="readonly" value="&lt;div id=&#39;MicrosoftTranslatorWidget&#39; class=&#39;Dark&#39; style=&#39;color:white;background-color:#555555&#39;&gt;&lt;/div&gt;&lt;script type=&#39;text/javascript&#39;&gt;setTimeout(function(){var s=document.createElement(&#39;script&#39;);s.type=&#39;text/javascript&#39;;s.charset=&#39;UTF-8&#39;;s.src=((location &amp;&amp; location.href &amp;&amp; location.href.indexOf(&#39;https&#39;) == 0)?&#39;https://ssl.microsofttranslator.com&#39;:&#39;http://www.microsofttranslator.com&#39;)+&#39;/ajax/v3/WidgetV3.ashx?siteData=ueOIGRSKkd965FeEGM5JtQ**&amp;ctf=true&amp;ui=true&amp;settings=manual&amp;from=en&#39;;var p=document.getElementsByTagName(&#39;head&#39;)[0]||document.documentElement;p.insertBefore(s,p.firstChild); },0);&lt;/script&gt;" onclick="this.select()"> </div> <div id="EmbedNoticeDiv"><span id="EmbedNoticeSpan">Enable collaborative features and customize widget: <a href="http://www.bing.com/widget/translator" target="_blank">Bing Webmaster Portal</a></span></div> <div id="EmbedFooterDiv"><span id="EmbedBackSpan"><a href="javascript:Microsoft.Translator.FloaterOnEmbedBackClick()" title="Back To Translation">Back</a></span></div> </div> <script type="text/javascript"> var intervalId = setInterval(function () { if (MtPopUpList) { LanguageMenu = new MtPopUpList(); var langMenu = document.getElementById(LanguageMenu_popupid); var origLangDiv = document.createElement("div"); origLangDiv.id = "OriginalLanguageDiv"; origLangDiv.innerHTML = "<span id='OriginalTextSpan'>ORIGINAL: </span><span id='OriginalLanguageSpan'></span>"; langMenu.appendChild(origLangDiv); LanguageMenu.Init('LanguageMenu', LanguageMenu_keys, LanguageMenu_values, LanguageMenu_callback, LanguageMenu_popupid); window["LanguageMenu"] = LanguageMenu; clearInterval(intervalId); } }, 1); </script> </div><div class="TnITTtw-fp-collapsed-button" style="display: block;"></div><div class="TnITTtw-mate-fp-bar" translate="no" style="z-index: 100001; width: 0px; height: 0px; opacity: 0; display: none;">    <div class="TnITTtw-hide-fp-bar" style="display: none;"></div>    <div class="TnITTtw-current-page-lang" style="display: none;">This page is in Arabic</div>    <div class="TnITTtw-cta-button-layout" style="display: none;">        <div class="TnITTtw-spinner">            <div class="TnITTtw-bounce1"></div>            <div class="TnITTtw-bounce2"></div>            <div class="TnITTtw-bounce3"></div>        </div>        <div class="TnITTtw-mw-button TnITTtw-fp-translate TnITTtw-high-cta" style="display: none;">Translate to English</div>    </div>    <div class="TnITTtw-change-language TnITTtw-select" data-for-serial="3" style="display: none;"></div>    <div class="TnITTtw-stop-fp"></div>    <div class="TnITTtw-toggle-iphone-settings" style="display: none;"></div>    <div class="TnITTtw-ui_selector" style="display: none;">        <div class="TnITTtw-options-arrow"></div>        <div class="TnITTtw-options TnITTtw-opt-3 TnITTtw-standalone" data-serial="3" style="display: none; z-index: 998;">            <div class="TnITTtw-dd-search">                <input class="TnITTtw-dd-input" type="text" data-dir="to" placeholder="Search" data-width="NaN">            </div>            <div id="selVisibleScroll-3">                <div id="selEntireScroll-3">                    <div class="TnITTtw-inner-options-layout">                        <ul class="TnITTtw-list"><li class="lang-af TnITTtw-option" index="1"><span id="lang-af" val="af" class="lang-af">Afrikaans</span></li><li class="lang-sq TnITTtw-option" index="2"><span id="lang-sq" val="sq" class="lang-sq">Albanian</span></li><li class="lang-am TnITTtw-option" index="3"><span id="lang-am" val="am" class="lang-am">Amharic</span></li><li class="lang-ar TnITTtw-option" index="4"><span id="lang-ar" val="ar" class="lang-ar">Arabic</span></li><li class="lang-hy TnITTtw-option" index="5"><span id="lang-hy" val="hy" class="lang-hy">Armenian</span></li><li class="lang-az TnITTtw-option" index="6"><span id="lang-az" val="az" class="lang-az">Azerbaijani</span></li><li class="lang-bn TnITTtw-option" index="7"><span id="lang-bn" val="bn" class="lang-bn">Bengali</span></li><li class="lang-bg TnITTtw-option" index="8"><span id="lang-bg" val="bg" class="lang-bg">Bulgarian</span></li><li class="lang-ca TnITTtw-option" index="9"><span id="lang-ca" val="ca" class="lang-ca">Catalan</span></li><li class="lang-hr TnITTtw-option" index="10"><span id="lang-hr" val="hr" class="lang-hr">Croatian</span></li><li class="lang-cs TnITTtw-option" index="11"><span id="lang-cs" val="cs" class="lang-cs">Czech</span></li><li class="lang-da TnITTtw-option" index="12"><span id="lang-da" val="da" class="lang-da">Danish</span></li><li class="lang-nl TnITTtw-option" index="13"><span id="lang-nl" val="nl" class="lang-nl">Dutch</span></li><li class="lang-en TnITTtw-option_selected" index="14"><span id="lang-en" val="en" class="lang-en">English</span></li><li class="lang-et TnITTtw-option" index="15"><span id="lang-et" val="et" class="lang-et">Estonian</span></li><li class="lang-fi TnITTtw-option" index="16"><span id="lang-fi" val="fi" class="lang-fi">Finnish</span></li><li class="lang-fr TnITTtw-option" index="17"><span id="lang-fr" val="fr" class="lang-fr">French</span></li><li class="lang-de TnITTtw-option" index="18"><span id="lang-de" val="de" class="lang-de">German</span></li><li class="lang-el TnITTtw-option" index="19"><span id="lang-el" val="el" class="lang-el">Greek</span></li><li class="lang-gu TnITTtw-option" index="20"><span id="lang-gu" val="gu" class="lang-gu">Gujarati</span></li><li class="lang-ht TnITTtw-option" index="21"><span id="lang-ht" val="ht" class="lang-ht">Haitian Creole</span></li><li class="lang-iw TnITTtw-option" index="22"><span id="lang-iw" val="iw" class="lang-iw">Hebrew</span></li><li class="lang-hi TnITTtw-option" index="23"><span id="lang-hi" val="hi" class="lang-hi">Hindi</span></li><li class="lang-hu TnITTtw-option" index="24"><span id="lang-hu" val="hu" class="lang-hu">Hungarian</span></li><li class="lang-is TnITTtw-option" index="25"><span id="lang-is" val="is" class="lang-is">Icelandic</span></li><li class="lang-id TnITTtw-option" index="26"><span id="lang-id" val="id" class="lang-id">Indonesian</span></li><li class="lang-it TnITTtw-option" index="27"><span id="lang-it" val="it" class="lang-it">Italian</span></li><li class="lang-ja TnITTtw-option" index="28"><span id="lang-ja" val="ja" class="lang-ja">Japanese</span></li><li class="lang-kn TnITTtw-option" index="29"><span id="lang-kn" val="kn" class="lang-kn">Kannada</span></li><li class="lang-kk TnITTtw-option" index="30"><span id="lang-kk" val="kk" class="lang-kk">Kazakh</span></li><li class="lang-km TnITTtw-option" index="31"><span id="lang-km" val="km" class="lang-km">Khmer</span></li><li class="lang-ko TnITTtw-option" index="32"><span id="lang-ko" val="ko" class="lang-ko">Korean</span></li><li class="lang-ku TnITTtw-option" index="33"><span id="lang-ku" val="ku" class="lang-ku">Kurdish (Kurmanji)</span></li><li class="lang-lo TnITTtw-option" index="34"><span id="lang-lo" val="lo" class="lang-lo">Lao</span></li><li class="lang-lv TnITTtw-option" index="35"><span id="lang-lv" val="lv" class="lang-lv">Latvian</span></li><li class="lang-lt TnITTtw-option" index="36"><span id="lang-lt" val="lt" class="lang-lt">Lithuanian</span></li><li class="lang-mg TnITTtw-option" index="37"><span id="lang-mg" val="mg" class="lang-mg">Malagasy</span></li><li class="lang-ms TnITTtw-option" index="38"><span id="lang-ms" val="ms" class="lang-ms">Malay</span></li><li class="lang-ml TnITTtw-option" index="39"><span id="lang-ml" val="ml" class="lang-ml">Malayalam</span></li><li class="lang-mt TnITTtw-option" index="40"><span id="lang-mt" val="mt" class="lang-mt">Maltese</span></li><li class="lang-mi TnITTtw-option" index="41"><span id="lang-mi" val="mi" class="lang-mi">Maori</span></li><li class="lang-mr TnITTtw-option" index="42"><span id="lang-mr" val="mr" class="lang-mr">Marathi</span></li><li class="lang-my TnITTtw-option" index="43"><span id="lang-my" val="my" class="lang-my">Myanmar (Burmese)</span></li><li class="lang-ne TnITTtw-option" index="44"><span id="lang-ne" val="ne" class="lang-ne">Nepali</span></li><li class="lang-no TnITTtw-option" index="45"><span id="lang-no" val="no" class="lang-no">Norwegian</span></li><li class="lang-ps TnITTtw-option" index="46"><span id="lang-ps" val="ps" class="lang-ps">Pashto</span></li><li class="lang-fa TnITTtw-option" index="47"><span id="lang-fa" val="fa" class="lang-fa">Persian</span></li><li class="lang-pl TnITTtw-option" index="48"><span id="lang-pl" val="pl" class="lang-pl">Polish</span></li><li class="lang-pt TnITTtw-option" index="49"><span id="lang-pt" val="pt" class="lang-pt">Portuguese</span></li><li class="lang-pa TnITTtw-option" index="50"><span id="lang-pa" val="pa" class="lang-pa">Punjabi</span></li><li class="lang-ro TnITTtw-option" index="51"><span id="lang-ro" val="ro" class="lang-ro">Romanian</span></li><li class="lang-ru TnITTtw-option" index="52"><span id="lang-ru" val="ru" class="lang-ru">Russian</span></li><li class="lang-sm TnITTtw-option" index="53"><span id="lang-sm" val="sm" class="lang-sm">Samoan</span></li><li class="lang-zh-CN TnITTtw-option" index="54"><span id="lang-zh-CN" val="zh-CN" class="lang-zh-CN">Simplified Chinese</span></li><li class="lang-sk TnITTtw-option" index="55"><span id="lang-sk" val="sk" class="lang-sk">Slovak</span></li><li class="lang-sl TnITTtw-option" index="56"><span id="lang-sl" val="sl" class="lang-sl">Slovenian</span></li><li class="lang-es TnITTtw-option" index="57"><span id="lang-es" val="es" class="lang-es">Spanish</span></li><li class="lang-sv TnITTtw-option" index="58"><span id="lang-sv" val="sv" class="lang-sv">Swedish</span></li><li class="lang-ta TnITTtw-option" index="59"><span id="lang-ta" val="ta" class="lang-ta">Tamil</span></li><li class="lang-te TnITTtw-option" index="60"><span id="lang-te" val="te" class="lang-te">Telugu</span></li><li class="lang-th TnITTtw-option" index="61"><span id="lang-th" val="th" class="lang-th">Thai</span></li><li class="lang-zh-TW TnITTtw-option" index="62"><span id="lang-zh-TW" val="zh-TW" class="lang-zh-TW">Traditional Chinese</span></li><li class="lang-tr TnITTtw-option" index="63"><span id="lang-tr" val="tr" class="lang-tr">Turkish</span></li><li class="lang-uk TnITTtw-option" index="64"><span id="lang-uk" val="uk" class="lang-uk">Ukrainian</span></li><li class="lang-ur TnITTtw-option" index="65"><span id="lang-ur" val="ur" class="lang-ur">Urdu</span></li><li class="lang-vi TnITTtw-option" index="66"><span id="lang-vi" val="vi" class="lang-vi">Vietnamese</span></li><li class="lang-cy TnITTtw-option" index="67"><span id="lang-cy" val="cy" class="lang-cy">Welsh</span></li></ul>                    </div>                </div>                <div id="sel-scrollbar-3">                    <div id="sel-track-3">                        <div id="sel-dragBar-3"></div>                    </div>                </div>            </div>        </div>    </div>    <div class="TnITTtw-fp-options" style="display: none;">        <input type="checkbox" id="TnITTtw-always-translate" readonly="readonly" style="display: none;"><label for="TnITTtw-always-translate" class="TnITTtw-always-translate-label TnITTtw-not-pro" style="display: none;"><span class="TnITTtw-always-translate-inner-label" style="display: none;">Always translate Arabic to English</span><span class="TnITTtw-pro-label" style="display: none;">PRO</span></label>        <br style="display: none;">        <input type="checkbox" id="TnITTtw-never-translate-lang" style="display: none;"><label for="TnITTtw-never-translate-lang" class="TnITTtw-never-translate-lang-label" style="display: none;">Never translate Arabic</label>        <br style="display: none;">        <input type="checkbox" id="TnITTtw-never-translate-site" style="display: none;"><label for="TnITTtw-never-translate-site" class="TnITTtw-never-translate-site-label" style="display: none;">Never translate portal.sha.edu.eg</label>    </div></div>
+</body></html>
